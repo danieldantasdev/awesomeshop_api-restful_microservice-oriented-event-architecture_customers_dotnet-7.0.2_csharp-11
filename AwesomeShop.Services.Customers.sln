@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Customers.Api", "AwesomeShop.Services.Customers.Api\AwesomeShop.Services.Customers.Api.csproj", "{2DE94285-EC4B-4565-86D2-93E93839B49F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Customers.Core", "AwesomeShop.Services.Customers.Core\AwesomeShop.Services.Customers.Core.csproj", "{77A81043-C500-4D53-8610-DC4B70C2186F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Customers.Infrastructure", "AwesomeShop.Services.Customers.Infrastructure\AwesomeShop.Services.Customers.Infrastructure.csproj", "{911AFF28-2223-47E6-8CD3-964FDCD00012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Customers.Application", "AwesomeShop.Services.Customers.Application\AwesomeShop.Services.Customers.Application.csproj", "{8FB7EF66-B5BE-4D9A-996E-4929A6A3E547}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DE94285-EC4B-4565-86D2-93E93839B49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE94285-EC4B-4565-86D2-93E93839B49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE94285-EC4B-4565-86D2-93E93839B49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE94285-EC4B-4565-86D2-93E93839B49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A81043-C500-4D53-8610-DC4B70C2186F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A81043-C500-4D53-8610-DC4B70C2186F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A81043-C500-4D53-8610-DC4B70C2186F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A81043-C500-4D53-8610-DC4B70C2186F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911AFF28-2223-47E6-8CD3-964FDCD00012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911AFF28-2223-47E6-8CD3-964FDCD00012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911AFF28-2223-47E6-8CD3-964FDCD00012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911AFF28-2223-47E6-8CD3-964FDCD00012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB7EF66-B5BE-4D9A-996E-4929A6A3E547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB7EF66-B5BE-4D9A-996E-4929A6A3E547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB7EF66-B5BE-4D9A-996E-4929A6A3E547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB7EF66-B5BE-4D9A-996E-4929A6A3E547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
